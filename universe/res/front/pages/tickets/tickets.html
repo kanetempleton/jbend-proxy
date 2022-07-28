@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Customer Ticket Tracking - RZ Tech and Web Services</title>
+    <link rel="stylesheet" href="../../style/rzstyle.css">
+</head>
+
+<body>
+    <h1 id="ticket-head">RZ Tech - Customer Ticket Tracking</h1>
+    <div id="ticket-desc">
+        <p id="ticket-welcome">Welcome to our ticket tracking page!</p>
+        <p id="ticket-instr">If you are a customer who has opened a ticket with us, please enter your ticket ID<br>
+            to check the status of your order. If you do not know your ticket ID, try searching your name.
+        </p>
+    </div>
+    <div id='employeeAccess' hidden>
+        <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        <p id="employeeInfo">[Employees Only]<br> Use this panel to add/modify a ticket.</p>
+        <input type="text" name="customer name" placeholder="Customer name" id="customerName"></input>
+        <input type="text" name="customer phone" placeholder="Customer phone number" id="customerPhone"></input>
+        <input type="text" name="customer email" placeholder="Customer email" id="customerEmail"></input><br>
+        <input type="text" name="ticket title" placeholder="Ticket title" id="ticketTitle"></input><br>
+        <textarea name="ticket info" placeholder="Describe issue details..." id="ticketInfo"></textarea><br>
+        <input type="text" name="ticket title" placeholder="Due date" id="ticketDue"></input><br>
+        <button id="newTicketButton">Create a new customer ticket</button><br />
+        <p id="employeeStatusCode"></p>
+        <!---<form action="/queryTickets.html">
+            <button id="showAllTicketsButton">Show All Tickets</button><br />
+        </form>--->
+        <button id="showAllTicketsButton">Show All Tickets</button><br />
+        <input type="checkbox" id="showcomplete" name="showcompletebox">
+        <label for="showcomplete">Show completed tickets</label><br>
+        <input type="checkbox" id="showhidden" name="showhiddenbox">
+        <label for="showhidden">Show hidden tickets</label><br>
+        <input type="checkbox" id="orderbydate" name="orderbydatebox">
+        <label for="orderbydate">Sort by due date</label><br>
+        <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+    </div>
+    <br>
+    <div id='Main-ticket'>
+        <p id="statusCode"></p>
+        <input type="text" name="ticket id" placeholder="Ticket ID" id="enterTicketID"></input><br />
+        <input type="text" name="customer name" placeholder="Customer Name" id="enterCustomerName"></input><br />
+        <br>
+        <button id="searchButton">Search!</button><br />
+        <p id="output"></p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/ticketsjs"></script>
+</body>
+
+</html>
