@@ -33,15 +33,6 @@ public class Main {
         TicketProcessing ticketManager = new TicketProcessing();
         ticketManager.assignClass(Ticket.class);
 
-        http_protocol = new HTTP("res/front/",8888) {
-            public byte[] processGET(ServerConnection c, String uri, String resource, String[] fields, String[] values) {
-                /*if (uri.contains("/tickets") && fields.length>0) {
-                    return ticketManager.processGET(this,c,uri,resource,fields,values);
-                }*/
-                return null;
-            }
-        };
-        Server http = new Server(http_protocol,2048);
 
        /* WebPackets wp = new WebPackets() {
             public void processPOST(ServerConnection c, String uri, int packetID, String[] fields, String[] values) {
@@ -64,7 +55,7 @@ public class Main {
        // Task T = new Task(H,"jizz");
        // H.create(T);
 
-        launcher.loadThread(http,"Web Server");
+       // launcher.loadThread(http,"Web Server");
        // launcher.loadThread(tcp,"TCP Server");
         //launcher.loadThread(tcpproxy,"Proxy Server");
 
