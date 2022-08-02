@@ -8,3 +8,5 @@
 *Console_Log*
 */*.idea
 *.idea
+*/*.conf
+*.conf
