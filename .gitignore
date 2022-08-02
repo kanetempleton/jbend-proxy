@@ -10,3 +10,7 @@
 *.idea
 */*.conf
 *.conf
+
+*/JBend.jar
+*JBend.jar
+*/*Jbend.jar

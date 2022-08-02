@@ -30,8 +30,8 @@ public class Main {
         CRUDHandler.DEBUG_CRUD = true;
 
 
-        TicketProcessing ticketManager = new TicketProcessing();
-        ticketManager.assignClass(Ticket.class);
+       // TicketProcessing ticketManager = new TicketProcessing();
+     //   ticketManager.assignClass(Ticket.class);
 
 
        /* WebPackets wp = new WebPackets() {
@@ -69,7 +69,7 @@ public class Main {
        // launcher.loadThread(H,"TaskManager"); //FUCK YEAH!!!!!!!!!!!!!
 
 
-        launcher.loadThread(ticketManager,"Ticketing System");
+       // launcher.loadThread(ticketManager,"Ticketing System");
 
        // H.create(T);
 
