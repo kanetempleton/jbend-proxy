@@ -109,7 +109,7 @@ public class Main {
 
         // new Thread(H).start();
         //launcher.loadThread(H,"TaskManager");
-        launcher.startThreads();
+       // launcher.startThreads();
     }
 
 
