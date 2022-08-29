@@ -7,7 +7,7 @@ public class BasicWebsite extends NetApplication {
     }
 
     public void runApplication() {
-        System.out.println("Appleecashun is runnin!");
+       // System.out.println("Appleecashun is runnin!");
         try {
             Thread.sleep(1000);
         } catch (Exception e) {
