@@ -1,0 +1,10 @@
+My Quest Book
+    todo list for important tasks in my life
+    []
+[navbar]
+<p> suck my dick nigga </p>
+
+<p> test function 1: </p>
+$[order(completed) table(read todos completed name)]
+<p> test function 2: </p>
+$[list(read todos completed='true' completed name)]
