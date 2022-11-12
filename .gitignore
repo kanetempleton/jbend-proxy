@@ -2,8 +2,6 @@
 *.DS_Store
 */*.class
 *.class
-*/*.cfg
-*.cfg
 */*Console_Log*
 *Console_Log*
 */*.idea
