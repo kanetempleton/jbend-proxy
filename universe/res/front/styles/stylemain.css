@@ -1,0 +1,59 @@
+body {
+background-image: linear-gradient(to right,#261a4f,#2d2769,#2d2769,#261a4f);
+color: #ffffff;
+}
+a {
+color: #ffffb5;
+}
+.roundedCorners2 {
+    border-radius: 20%;
+}
+.roundedCorners {
+border-radius: 44%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.roundedCorners:hover {
+transform: scale(1.1);
+}
+.buttonBubbly {
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffb5;
+    padding: 16px 64px;
+    font-size: 16px;
+}
+.buttonBubbly:hover {
+      border-radius: 12px;
+      border: 3px solid #ffffff;
+      background-color: transparent;
+      color: #ffffff;
+}
+#purpleBackground {
+    background-color: #9842f5;
+}
+#royalPurpleBackground {
+    background-color: #6908d1;
+}
+#mysteriousPurpleBackground {
+    background-color: #2d2769;
+}
+#darkPurpleBackground {
+    background-color: #261a4f;
+}
+
+#darkBlueText {
+    color: #000591;
+}
+
+#faintYellowText {
+    color: #ffffb5;
+}
+
+#whiteText {
+    color: #ffffff;
+}
+
+#yellowText {
+    color: #ffff2b;
+}
